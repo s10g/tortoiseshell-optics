@@ -9,7 +9,8 @@ header {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 31rem;
+    height: 30rem;
+    padding-top: 1rem;
 }
 
 .site-container {
@@ -28,7 +29,6 @@ header {
     align-items: center;
     background-color: cadetblue;
     padding: 1rem 2rem;
-    margin-top: 1rem;
 }
 
 .logo {
@@ -45,3 +45,72 @@ nav a {
     padding-left: 2rem;
 }
 
+.slogan {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 1.2;
+    padding: 1.5rem 5rem;
+    float: right;
+    margin-top: 10rem;
+    margin-right: 5rem;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.services-container {
+    display: flex;
+    flex-direction: row;
+    justify-items: space-between;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.service {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 5rem;
+    max-height: 8rem;
+}
+
+.service-img {
+    display: block;
+    width: 3.5rem;
+}
+
+.about {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.about-box {
+    max-width: 35%;
+    margin-bottom: 5rem;
+}
+
+.about-box h3 {
+    color: white;
+    background-color: cadetblue;
+    font-weight: bold;
+    font-size: 1rem;
+    max-width: 10rem;
+    padding: 0.5rem 1.25rem;
+}
+
+.about-box p {
+    margin-top: 1rem;
+}
+
+footer {
+    background-color: azure;
+    padding: 4rem;
+}
